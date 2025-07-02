@@ -7,7 +7,7 @@ int main() {
     
     scanf("%d", &N);
     
-    for (int c = 0; c < 10; c++){
+    for (int c = 0; c < 10; c++) {
         lista[c] = N * pow(2, c);
         printf("N[%d] = %d\n", c, lista[c]);
     }
