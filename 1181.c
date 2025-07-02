@@ -9,13 +9,13 @@ int main() {
     scanf("%d", &L);
     scanf(" %c", &T);
     
-    for(int i=0; i < 12; i++) {
-        for(int j=0; j < 12; j++) {
+    for(int i = 0; i < 12; i++) {
+        for(int j = 0; j < 12; j++) {
             scanf("%lf", &M[i][j]);
         }   
     }
     
-    for(int j=0; j < 12; j++) {
+    for(int j = 0; j < 12; j++) {
         soma += M[L][j];
     }
     
@@ -26,5 +26,6 @@ int main() {
     } else if (T == 'M') {
         printf("%.1lf\n", media);
     }
+    
     return 0;
 }
