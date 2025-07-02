@@ -1,17 +1,16 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int N, des, j;
     char str[51], letra;
     
     scanf("%d", &N);
     
-    for(int i = 0; i < N; i++){
+    for(int i = 0; i < N; i++) {
         scanf("%s", str);
         scanf("%d", &des);
         
-        for(j = 0; str[j] != '\0'; j++){
+        for(j = 0; str[j] != '\0'; j++) {
             letra = str[j] - des; 
             if(letra < 'A'){
                 letra += 26;
