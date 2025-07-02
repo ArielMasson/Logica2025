@@ -7,7 +7,7 @@ int main() {
     
     int X[N];
     
-    for (i = 0; i < N; i++){
+    for (i = 0; i < N; i++) {
         scanf("%d", &X[i]);
         if (i == 0) {
             menor = X[i];
@@ -17,5 +17,6 @@ int main() {
         }
     }
     printf("Menor valor: %d\nPosicao: %d\n", menor, pos);
+    
     return 0;
 }
