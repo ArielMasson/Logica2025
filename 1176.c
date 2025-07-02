@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int T, N, j;
     long long int fibonacci[61];
 
@@ -18,5 +17,6 @@ int main()
         scanf("%d", &N);
         printf("Fib(%d) = %lld\n", N, fibonacci[N]);
     }  
+    
     return 0;
 }
