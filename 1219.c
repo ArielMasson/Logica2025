@@ -3,8 +3,7 @@
 
 #define PI 3.141592653589793
 
-int main()
-{
+int main() {
     int l1, l2, l3;
     double Atri, Avioleta, Arosa, Agirassol, semip, Rrosa;
     
