@@ -7,5 +7,6 @@ int main() {
     res = sqrt(((x2-x1)*(x2-x1)) + ((y2-y1)*(y2-y1)));
     
     printf("%.4lf\n", res);
+    
     return 0;
 }
