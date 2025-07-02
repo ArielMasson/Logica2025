@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int N, cont;
     float t1, t2, t3, media;
     
