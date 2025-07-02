@@ -3,7 +3,7 @@
 int main() {
     double M[12][12];
     int L;
-    double soma=0,  media = 0;
+    double soma = 0,  media = 0;
     char T;
     
     scanf("%d", &L);
