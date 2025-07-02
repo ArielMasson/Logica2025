@@ -1,7 +1,6 @@
 #include <stdio.h>
 
-int main()
-{
+int main() {
     int N, menor, pos = 0, i;
     
     scanf("%d", &N);
@@ -17,7 +16,6 @@ int main()
             pos = i;
         }
     }
-    
     printf("Menor valor: %d\nPosicao: %d\n", menor, pos);
     return 0;
 }
