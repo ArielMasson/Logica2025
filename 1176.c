@@ -17,5 +17,6 @@ int main()
     for (int i = 0; i < T; i++) {
         scanf("%d", &N);
         printf("Fib(%d) = %lld\n", N, fibonacci[N]);
-    }   
+    }  
+    return 0;
 }
